@@ -85,9 +85,9 @@ The table below lists leading commercial SaaS suites for inactive account detect
 
 ## 🔓 Open-Source GitHub Projects
 
-The following open-source identity governance platforms, directories, access brokers, and automation frameworks provide modular building blocks for self-hosted inactive user detection, access deprovisioning, and data archiving. Entries are sorted in descending order by **GitHub star count**.
+The following open-source identity governance platforms, directories, access brokers, and automation frameworks provide modular building blocks for self-hosted inactive user detection, access deprovisioning, and data archiving. Entries are sorted in descending order by **GitHub Stars_Count**.
 
-| Project | GitHub Stars | Focus / Role in Offboarding & Archiving |
+| Project | GitHub_Stars | Focus / Role in Offboarding & Archiving |
 | :--- | :--- | :--- |
 | **[Ansible](https://github.com/ansible/ansible)** | [![Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers) | Playbooks and automation roles that disable target accounts, revoke SSH keys, transfer data ownership, and archive user home directories. |
 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![Stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Standard enterprise open-source IdP; provides REST admin APIs and event listeners to trigger account deactivation and downstream offboarding webhooks. |
@@ -137,7 +137,7 @@ Contributions are welcome and appreciated! To maintain high resource quality:
 1. 🍴 **Fork** this repository.
 2. 📝 **Add or Update** entries in `README.md` following the table formatting:
    - For SaaS products: include starting tier pricing, free tier/trial limits, company size/valuation, and verified offboarding features.
-   - For Open-Source projects: include the star count badge linking to stargazers and concise technical architectural focus.
+   - For Open-Source projects: include the Stars_Count badge linking to stargazers and concise technical architectural focus.
 3. 🔎 **Verify Links**: Ensure all documentation and repository URLs are valid and active.
 4. 🚀 **Submit a Pull Request** with a brief summary of the added tools.
 
