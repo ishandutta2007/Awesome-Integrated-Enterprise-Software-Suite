@@ -1,36 +1,72 @@
-# Awesome-Integrated-Enterprise-Software-Suite
+<div align="center">
 
-## Top Inactive User Data Archiving & Offboarding Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite?style=flat-square&logo=github&color=gold" alt="Stars" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite?style=flat-square&logo=github&color=blue" alt="Forks" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite?style=flat-square&color=orange" alt="Issues" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite?style=flat-square&color=green" alt="License" /></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<br /><br />
 
-*Focused on Inactive User Detection, Offboarding Workflows, Data Retention, Mailbox Archiving & Identity Lifecycle*
+<a href="https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite">
+  <img src="assets/banner.svg" alt="Awesome Integrated Enterprise Software Suite Banner" width="100%" />
+</a>
 
-**Last updated: November 2026**
+# 🏢 Awesome Integrated Enterprise Software Suite
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Inactive User Data Archiving & Offboarding**. These tools detect inactive accounts, run structured offboarding (revoke access, transfer ownership, archive data), apply retention policies, and manage identity lifecycle from leave of absence through termination.
+### 🚀 Top Inactive User Data Archiving, Automated Offboarding & Identity Lifecycle Ecosystem
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite/graphs/commit-activity)
+[![Guide](https://img.shields.io/badge/Category-Identity%20%26%20Access%20Management-blue?style=flat-square)](https://github.com/ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite)
+
+*A definitive, curated directory of **Enterprise SaaS Platforms** and **Open-Source Software (OSS)** engineering solutions for **Inactive User Detection**, **Automated Employee Offboarding Workflows**, **SaaS License Reclamation**, **Compliance Data Retention**, **Exchange/Gmail Mailbox Archiving**, and **Identity Governance & Administration (IGA)**.*
+
+📅 **Last updated: November 2026**
+
+</div>
 
 ---
 
-## Table of Contents
+## 📖 Overview
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+In modern cloud-first enterprises, employee departures and inactive accounts represent critical security vulnerabilities, compliance liabilities, and runaway SaaS software spend. Unmanaged leaver states expose companies to data leaks, orphan account takeover, shadow IT proliferation, and unnecessary license renewals.
 
----
-
-## Sector Overview & Market Dynamics
-
-The combined market covering Identity Governance and Administration (IGA) and SaaS Management Platforms (SMP) is estimated at **$14B – $27B in 2026**, expanding rapidly at an estimated 10%–15% CAGR driven by strict compliance mandates (GDPR, DORA, HIPAA) and zero-trust security postures. The sector exhibits **moderate fragmentation with ongoing platform consolidation**: while horizontal hyperscalers and identity giants (Microsoft, Alphabet, Okta, SailPoint) dominate core identity lifecycle contracts, specialized pure-play vendors (BetterCloud, Torii, Lumos, Druva) continue to capture significant market share around multi-SaaS shadow-IT discovery, granular offboarding workflows, and automated cross-app data archiving.
+This repository tracks the leading **SaaS platforms** and **open-source identity architectures** purpose-built to automate the **Joiner-Mover-Leaver (JML)** lifecycle:
+- 🔍 **Inactive User & Dormant Account Detection**: Continuous monitoring of last-login timestamps, SSO audit events, and HRIS signals.
+- ⚡ **Structured Employee Offboarding Workflows**: Instant revocation of IdP sessions, multi-SaaS access deprovisioning, OAuth token cancellation, and hardware reclamation.
+- 📦 **Data Retention & Mailbox Archiving**: Automated placement of departing users on legal holds, converting accounts into free inactive mailboxes (Exchange Online / Google Workspace AU), and backing up SaaS drive data.
+- 📂 **Ownership & Asset Delegation**: Automatic reassignment of calendar meetings, Google Drive files, SharePoint repositories, and Salesforce records to managers.
+- 🛡️ **Regulatory Compliance & Auditability**: Enforcing SOC 2, ISO 27001, HIPAA, GDPR, and DORA standards with tamper-proof deprovisioning audit trails.
 
 ---
 
-## SaaS/Hosted Platforms
+## 📑 Table of Contents
 
-The table below lists leading SaaS products for inactive user archiving, automated deprovisioning, and identity offboarding, sorted in descending order by enterprise company size (market valuation / market capitalization).
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise Platforms](#️-saas--hosted-enterprise-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Implementation Architecture & Patterns](#️-implementation-architecture--patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The enterprise sector encompassing **Identity Governance and Administration (IGA)** and **SaaS Management Platforms (SMP)** represents an estimated **$14B – $27B total addressable market in 2026**, expanding rapidly at an estimated **10%–15% CAGR** under tightening zero-trust frameworks and compliance mandates (GDPR, DORA, NIS2, HIPAA). 
+
+The market dynamics exhibit **moderate fragmentation alongside ongoing platform consolidation**: while horizontal hyperscalers and legacy identity powerhouses (Microsoft, Alphabet, Okta, SailPoint) secure core identity lifecycle contracts, agile pure-play vendors (BetterCloud, Torii, Lumos, Druva) continue to capture significant enterprise share through turnkey multi-SaaS connectors, automated shadow IT discovery, deep JML workflow orchestration, and granular mailbox/data archiving.
+
+---
+
+## ☁️ SaaS & Hosted Enterprise Platforms
+
+The table below lists leading commercial SaaS suites for inactive account detection, automated deprovisioning, license reclamation, and compliance data archiving, sorted in descending order by **enterprise company size (market valuation / market capitalization)**.
 
 | Product | Company Valuation / Market Cap | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Key Offboarding & Archiving Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -47,9 +83,9 @@ The table below lists leading SaaS products for inactive user archiving, automat
 
 ---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
-The following open-source identity governance platforms, directories, access brokers, and automation frameworks provide building blocks for self-hosted inactive user detection, access deprovisioning, and data archiving. Entries are sorted in descending order by GitHub star count.
+The following open-source identity governance platforms, directories, access brokers, and automation frameworks provide modular building blocks for self-hosted inactive user detection, access deprovisioning, and data archiving. Entries are sorted in descending order by **GitHub star count**.
 
 | Project | GitHub Stars | Focus / Role in Offboarding & Archiving |
 | :--- | :--- | :--- |
@@ -71,29 +107,67 @@ The following open-source identity governance platforms, directories, access bro
 
 ---
 
-### Implementation Patterns & Architecture
+## 🏗️ Implementation Architecture & Patterns
 
-- **Full Open IGA Lifecycle**: **midPoint** functions as the direct open-source counterpart to enterprise solutions like SailPoint, providing native Joiner-Mover-Leaver (JML) state management, automated entitlement revocation, and inactive user reconciliation.
+```
+ [HRIS / Trigger Event] ➡️ (Employee Departure / Inactive Threshold Met)
+           │
+           ▼
+ [Central Identity Engine] ──(midPoint / Keycloak / Authentik / Okta)
+           │
+     ┌─────┴──────────────────────────────┬──────────────────────────────┐
+     ▼                                    ▼                              ▼
+[Identity Suspension]             [SCIM Deprovisioning]          [Compliance Archiving]
+ • Lock IdP User Account          • Revoke SaaS App Accounts     • Convert M365 Inactive Mailbox
+ • Invalidate OAuth Tokens        • Reclaim Software Licenses    • Google Workspace AU License
+ • Terminate SSO Sessions         • Reassign File/Drive Assets   • Snapshot Endpoints (Druva/S3)
+```
+
+- **Full Open IGA Lifecycle**: **midPoint** functions as the direct open-source counterpart to enterprise suites like SailPoint, providing native Joiner-Mover-Leaver (JML) state management, automated entitlement revocation, and inactive user reconciliation.
 - **IdP-Driven Deprovisioning**: Deploy **Keycloak**, **Authentik**, **Zitadel**, or **Casdoor** as the central identity broker. Suspending an account at the IdP instantly severs SSO access across all SAML/OIDC federated enterprise apps.
 - **SCIM Protocol Automation**: Using open SCIM 2.0 connectors ensures that deactivating an account in the primary identity directory propagates real-time suspension and license revocation to downstream cloud services.
 - **Data Archiving & Mailbox Preservation**: Infrastructure orchestration via **Ansible** alongside self-hosted services like **mailcow** allows organizations to snapshot user mailboxes, archive home directories to immutable S3 storage, and reassign critical mailbox aliases before purging active identities.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow the table formats and include pricing, trial limits, and valuation/stars).
-3. Include factual descriptions and link to official documentation or source repositories.
-4. Submit a pull request with a concise summary of updates.
+Contributions are welcome and appreciated! To maintain high resource quality:
 
----
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Offboarding and data archiving involve personal data, access control, and legal retention obligations. Ensure compliance with applicable employment, privacy, and records laws. This list is not legal, HR, or security advice.
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or Update** entries in `README.md` following the table formatting:
+   - For SaaS products: include starting tier pricing, free tier/trial limits, company size/valuation, and verified offboarding features.
+   - For Open-Source projects: include the star count badge linking to stargazers and concise technical architectural focus.
+3. 🔎 **Verify Links**: Ensure all documentation and repository URLs are valid and active.
+4. 🚀 **Submit a Pull Request** with a brief summary of the added tools.
 
 ---
 
-**Made for identity teams, IT ops, HR tech, and open-source advocates.**
+## 💖 Support & Sponsorship
+
+If you find this enterprise software curation helpful for your IT, security, or identity operations, please consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it across GitHub.
+- 🍴 **Fork and share** the project with your IT operations and security engineering teams.
+- ☕ **Sponsor or buy a coffee**: Support ongoing curation, maintenance, and research through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your backing directly fuels continuous research and documentation of enterprise identity and software management ecosystems! Thank you! 🙏
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Integrated-Enterprise-Software-Suite&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated** reference list — not exhaustive and not an official commercial endorsement.
+- Offboarding, employee deprovisioning, and data retention involve personal data, access controls, and strict legal retention obligations (GDPR, HIPAA, SOC 2, CCPA). Ensure all policies comply with applicable local employment, privacy, and compliance regulations. This list does not constitute legal, HR, or security compliance advice.
+
+---
+
+<div align="center">
+  <b>Built for Identity Architects, IT Ops, Security Engineers, and Enterprise Open-Source Advocates. 🛡️</b>
+</div>

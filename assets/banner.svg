@@ -1,0 +1,143 @@
+<svg width="100%" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.12)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.04)" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1" />
+    </pattern>
+
+    <!-- Filters for Glow -->
+    <filter id="glowOrb" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="60" result="blur" />
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        fill: #ffffff;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        fill: #94a3b8;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        fill: #e2e8f0;
+      }
+      .flow-node-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 11px;
+        fill: #38bdf8;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="280" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="280" rx="16" fill="url(#grid)" />
+
+  <!-- Animated Glowing Ambience in Background (Behind Text) -->
+  <g opacity="0.6">
+    <circle cx="150" cy="80" r="110" fill="#0284c7" filter="url(#glowOrb)">
+      <animate attributeName="cx" values="150;200;150" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="180" r="130" fill="#7c3aed" filter="url(#glowOrb)">
+      <animate attributeName="cx" values="1050;1000;1050" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.3;0.6;0.3" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Animated Decorative Background Data Streams / Lifecycle Nodes -->
+  <g opacity="0.35">
+    <!-- Connecting Path -->
+    <path d="M 820 70 L 930 70 L 980 140 L 1090 140" stroke="url(#cyanPurple)" stroke-width="2" stroke-dasharray="6 6" fill="none">
+      <animate attributeName="stroke-dashoffset" values="0;-36" dur="4s" repeatCount="indefinite" />
+    </path>
+    <!-- Node 1: Inactive Detection -->
+    <circle cx="820" cy="70" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="820" cy="70" r="5" fill="#38bdf8">
+      <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <!-- Node 2: Revoke Access -->
+    <circle cx="930" cy="70" r="14" fill="#1e293b" stroke="#818cf8" stroke-width="2" />
+    <circle cx="930" cy="70" r="5" fill="#818cf8" />
+    <!-- Node 3: Mailbox Archive -->
+    <circle cx="980" cy="140" r="14" fill="#1e293b" stroke="#a855f7" stroke-width="2" />
+    <circle cx="980" cy="140" r="5" fill="#a855f7" />
+    <!-- Node 4: Compliance Vault -->
+    <circle cx="1090" cy="140" r="14" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+    <circle cx="1090" cy="140" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Pulse Particle across Stream -->
+    <circle r="4" fill="#f43f5e">
+      <animateMotion path="M 820 70 L 930 70 L 980 140 L 1090 140" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Foreground Content: Header, Title & Subtitles -->
+  <!-- Top Category Indicator Pill -->
+  <g transform="translate(60, 42)">
+    <rect width="320" height="28" rx="14" fill="url(#badgeGrad)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+    <circle cx="14" cy="14" r="5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="19" class="pill-text" fill="#38bdf8">⚡ ENTERPRISE IDENTITY &amp; ARCHIVING</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="60" y="112" class="title-text">Awesome Integrated Enterprise Suite</text>
+
+  <!-- Subtitle Tagline -->
+  <text x="60" y="146" class="subtitle-text">Curated Inactive User Detection, Automated Offboarding, Mailbox Archiving &amp; Identity Lifecycle</text>
+
+  <!-- Feature Pills / Highlights -->
+  <g transform="translate(60, 185)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="180" height="34" rx="8" fill="url(#badgeGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="16" y="22" class="pill-text">🛡️ Inactive User Auditing</text>
+
+    <!-- Pill 2 -->
+    <rect x="195" y="0" width="200" height="34" rx="8" fill="url(#badgeGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="14" y="22" class="pill-text">🔄 JML Offboarding Flows</text>
+
+    <!-- Pill 3 -->
+    <rect x="410" y="0" width="200" height="34" rx="8" fill="url(#badgeGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="14" y="22" class="pill-text">📦 Inactive Mailbox Holds</text>
+
+    <!-- Pill 4 -->
+    <rect x="625" y="0" width="190" height="34" rx="8" fill="url(#badgeGrad)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+    <text x="14" y="22" class="pill-text">⚙️ SCIM &amp; Open IGA (OSS)</text>
+  </g>
+
+  <!-- Subtle Bottom Gradient Border -->
+  <rect x="0" y="276" width="1200" height="4" fill="url(#cyanPurple)" />
+</svg>
